@@ -1,0 +1,28 @@
+
+.drawing-area {
+  display: flex;
+}
+
+.draw-tools,
+.select-tool,
+.view-tool {
+  margin: 10px;
+}
+
+.toolbar {
+  background-color: #f0f0f0;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+button {
+  margin-right: 5px;
+}
+
+.active {
+  background-color: #ccc;
+}
